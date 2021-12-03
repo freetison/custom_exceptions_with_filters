@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.5" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Tx.Core.Extentions.Enum" Version="1.0.2.5" />
+    <PackageReference Include="Tx.Core.Extentions.String" Version="1.2.1.5" />
+    <PackageReference Include="Tx.Core.GenericFactory" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
